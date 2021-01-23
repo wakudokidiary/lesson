@@ -1,286 +1,261 @@
-/* ↓ここから共通↓ */
-
-body {
-  margin: 0px;
-  padding:0px;
-  font-family: "ヒラギノ明朝";
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
 
-a {
-  text-decoration: none;
-}
-
-.container {
-  width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
- 
-}
-
-.top-wrapper {
-  height:420px;
-  padding: 130px 0 200px 0;
+.box1 {
+  /* background-color:red; */
+  width:100%;
+  height:750px;
   /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/16.jpg); */
   background-image: url('./16.JPG');
-  background-size: cover;
-  color: white;
-  text-align: center;
+  background-size:cover;
+  color:white;
+  text-align:center;
 }
 
-.top-wrapper h1 {
-  font-size: 180px;
-  
+.box1 h1 {
+  padding-top:300px;
+  font-size:80px;
 }
 
 header {
   background-color:#800000;
-  height:50px;
-  padding-top:0px;
-  margin:0px;
-  color:white;
-
-}
-
-/* リンクの文字白に */
-header a {
-  color:white;
+  width:100%;
+  height:70px;
 }
 
 
-/* ヘッダー上の空白削除 */
-ul {
-  margin:0px;
-}
 
 li {
-  list-style:none;
   float:left;
-  font-size:30px; 
-  padding:0px 20px;
-  padding-top:2px;
+  list-style:none;
+  padding:25px 80px;
+  font-size:15px;
+  color:white;
 }
 
 
-/* ↑ここまで共通↑ */
-
-/* ↓タイトル、文章、写真2つ横並び(divの箱2つ横並び)↓ */
-
-.second-wrapper {
-  height:400px;
-  background-color:white;
-}
-
-/* 文字を中央に配置 */
-.second-wrapper h1 {
-  text-align:center;
-  font-size:80px;
-}
-
-.second-wrapper p {
+.box2 {
+  /* background-color:pink; */
+  width:100%;
+  height:700px;
   text-align:center;
 }
 
-.third-wrapper {
-  height:650px;
-  background-color:white;
+.box2 h2 {
+  font-size:30px;
+  padding-top:100px;
+  padding-bottom:10px;
+  margin:0px 500px;
+  border-bottom:3px solid black;
+}
+
+.box2 p {
+  font-size:20px;  
+  padding-top:60px;
+  padding-bottom:80px;
+  line-height:60px;
+}
+
+.box3 {
+  /* background-color:green; */
+  width:100%;
+  height:720px;
+  text-align:center;
   position:relative;
 }
 
-/* 文字を中央に配置 */
-.third-wrapper h1 {
-  text-align:center;
-  font-size:80px;
+.box3 h2 {
+  font-size:30px;
+  padding-top:100px;
+  padding-bottom:10px;
+  margin:0px 500px;
+  border-bottom:3px solid black;
 }
 
-.third-wrapper h2 {
+.box3 .name {
   text-align:left;
-  font-size:60px;
-  margin-left:650px;
+  font-size:60px;  
+  padding-top:60px;
+  line-height:50px;
+  margin-left:710px;
 }
 
-
-.third-wrapper p {
+.box3 .reki {
   text-align:left;
-  margin-left:650px;
+  font-size:20px;  
+  padding-top:30px;
+  line-height:50px;
+  margin-left:730px;
 }
 
-.third-wrapper img {
-  width:600px;
-  height:600px;
+.box3 img {
+  width:620px;
+  height:620px;
   position:absolute;
-  top:50px;
-  left:300px;
+  top:120px;
+  left:230px;
 }
 
-
-
-.forth-wrapper {
+.box4 {
+  /* background-color:pink; */
+  width:100%;
   height:600px;
-
-}
-
-.forth-wrapper .container {
-  background-color:green;
-  height:600px;
-}
-
-/* 文字を中央に配置 */
-.forth-wrapper h1 {
-  text-align:center;
-  font-size:80px;
-}
-
-.forth-wrapper h2 {
-  text-align:center;
-  font-size:60px;
-}
-
-.forth-wrapper p {
   text-align:center;
 }
 
-.group {
-  font-size:25px;
+.box4 h2 {
+  font-size:30px;
+  padding-top:100px;
+  padding-bottom:10px;
+  margin:0px 500px;
+  border-bottom:3px solid black;
 }
 
-
-.fifth-wrapper {
-  height:600px;
-
+.box4 h3 {
+  font-size:25px;  
 }
 
-
-
-.fifth-wrapper .container {
-  background-color:orange;
-  height:600px;
+.box4 p {
+  font-size:20px;  
+  padding-top:30px;
+  padding-bottom:40px;
+  line-height:50px;
 }
 
-/* 文字を中央に配置 */
-.fifth-wrapper h1 {
-  text-align:center;
-  font-size:80px;
-}
-
-.fifth-wrapper h2 {
-  text-align:center;
-  font-size:60px;
-}
-
-.fifth-wrapper p {
+.box5 {
+  /* background-color:green; */
+  width:100%;
+  height:680px;
   text-align:center;
 }
 
-
-
-.date {
-  float:left; 
-  margin-left:200px;
+.box5 h2 {
+  font-size:30px;
+  padding-top:100px;
+  padding-bottom:10px;
+  margin:0px 500px;
+  border-bottom:3px solid black;
 }
 
-.course {
-  float:right;
-  margin-right:200px;
+.box5 h3 {
+  font-size:25px;  
 }
 
-.date p {
-  font-size:25px;
-  text-align:left;
+.box5 p {
+  font-size:20px;  
+  padding-top:30px;
+  padding-bottom:40px;
+  line-height:50px;
 }
 
-.course p {
-  font-size:25px;
-  text-align:left;
+.box5-left {
+  float:left;
+  width:50%;
+  height:300px;
+  /* background-color:blue; */
 }
 
-.sixth-wrapper {
-  height:600px;
-
+.box5-left p {
+  padding-left:300px;
 }
 
-.sixth-wrapper .container {
-  background-color:red;
-  height:500px;
+.box5-right {
+  float:left;
+  width:50%;
+  height:300px;
+  /* background-color:red; */
 }
 
-/* 文字を中央に配置 */
-.sixth-wrapper h1 {
+.box5-right p {
+  padding-right:300px;
+}
+
+
+.box6 {
+  /* background-color:pink; */
+  width:100%;
+  height:520px;
   text-align:center;
-  font-size:70px;
 }
 
-.sixth-wrapper h2 {
+.box6 h2 {
+  font-size:30px;
+  padding-top:100px;
+  padding-bottom:10px;
+  margin:0px 450px;
+  border-bottom:3px solid black;
+}
+
+.box6 h3 {
+  font-size:25px;  
+}
+
+.box6 p {
+  font-size:20px;  
+  padding-top:30px;
+  padding-bottom:40px;
+  line-height:50px;
+}
+
+.box7 {
+  /* background-color:green; */
+  width:100%;
+  height:750px;
   text-align:center;
-  font-size:60px;
-}
-
-.sixth-wrapper p {
-  text-align:center;
-}
-
-.group {
-  font-size:25px;
-}
-
-.seventh-wrapper {
-  height:500px;
-  background-color:white;
   position:relative;
 }
 
-/* 文字を中央に配置 */
-.seventh-wrapper h1 {
-  text-align:center;
-  font-size:80px;
+.box7 h2 {
+  font-size:30px;
+  padding-top:100px;
+  padding-bottom:10px;
+  margin:0px 450px;
+  border-bottom:3px solid black;
 }
 
-.seventh-wrapper p {
-  text-align:center;
+
+.box7 p {
+  font-size:20px;  
+  padding-top:30px;
+  padding-bottom:40px;
+  line-height:50px;
 }
 
-.seventh-wrapper img{
-  position:absolute;
-
-}
-
-.qr {
-  width:200px;
-  height:200px;
-  top:250px;
-  left:680px;
+.box7 a {
+  text-decoration:none;
+  color:black;
 }
 
 .michi {
-  width:300px;
-  height:300px;
-  top:200px;
-  left:500px;
+  position:absolute;
+  width:400px;
+  height:400px;
+  top:350px;
+  left:450px;
 }
 
-
-
-
-
-
-
-
-/* ↓フッター↓ */
+.qr {
+  position:absolute;
+  width:200px;
+  height:200px;
+  top:420px;
+  left:730px;
+}
 
 footer {
   background-color:#ffa500;
+  width:100%;
   height:370px;
-  padding-top:0px;
-  margin:0px;
-  color:white;
 }
 
 footer img {
-  display:inline-block;
   float:left;
   margin:20px 20px;
 }
 
-/* 潜り込みを解消 */
 .info {
   clear:both;
 }
@@ -294,18 +269,9 @@ footer img {
   margin:0px 20px;
 }
 
-.info a {
-  color:white;
+footer a {
+  color:black;
+  text-decoration:none;  
 }
-
-/* ↑フッター↑ */
-
-
-
-
-
-
-
-
 
 

@@ -1,0 +1,274 @@
+@media (max-width: 1200px) {
+
+  * {
+    box-sizing:border-box;
+  }
+  
+  .box1 {
+    /* background-color:red; */
+    width:100%;
+    height:500px;
+    /* background-image: url(file:///Users/shunki/Desktop/MyPortforio/ホームページ写真/16.jpg); */
+    background-image: url('./16.JPG');
+    background-size:cover;
+    color:white;
+    text-align:center;
+  }
+  
+  .box1 h1 {
+    padding-top:200px;
+    font-size:55px;
+  }
+  
+  header {
+    background-color:#800000;
+    width:100%;
+    height:60px;
+  }
+  
+  ul {
+    width:2000px;
+  }
+  
+  li {
+    float:left;
+    list-style:none;
+    padding:20px 45px;
+    font-size:15px;
+    color:white;
+  }
+
+  .box2 {
+    /* background-color:pink; */
+    width:100%;
+    height:640px;
+    text-align:center;
+  }
+
+
+  .box2 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 200px;
+    border-bottom:2px solid black;
+  }
+
+
+  .box2 p {
+    font-size:18px;  
+    padding-top:40px;
+    padding-bottom:30px;
+    line-height:50px;
+  }
+
+  .box3 {
+    /* background-color:green; */
+    width:100%;
+    height:600px;
+    text-align:center;
+    position:relative;
+  }
+  
+  .box3 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 200px;
+    border-bottom:2px solid black;
+  }
+  
+  .box3 .name {
+    text-align:left;
+    font-size:40px;  
+    padding-top:60px;
+    line-height:50px;
+    margin-left:450px;
+  }
+  
+  .box3 .reki {
+    text-align:left;
+    font-size:18px;  
+    line-height:30px;
+    margin-left:450px;
+  }
+  
+  .box3 img {
+    width:430px;
+    height:430px;
+    position:absolute;
+    top:150px;
+    left:130px;
+  }
+
+
+  .box4 {
+    /* background-color:pink; */
+    width:100%;
+    height:550px;
+    text-align:center;
+  }
+
+
+  .box4 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 200px;
+    border-bottom:2px solid black;
+  }
+
+
+  .box4 p {
+    font-size:18px;  
+    padding-top:40px;
+    padding-bottom:30px;
+    line-height:30px;
+  }
+
+  .box5 {
+    /* background-color:green; */
+    width:100%;
+    height:550px;
+    text-align:center;
+  }
+
+
+  .box5 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 200px;
+    border-bottom:2px solid black;
+  }
+
+
+  .box5 p {
+    font-size:18px;  
+    padding-top:40px;
+    padding-bottom:30px;
+    line-height:30px;
+  }
+
+  .box5-left {
+    float:left;
+    width:50%;
+    height:200px;
+    /* background-color:blue; */
+  }
+  
+  .box5-left p {
+    padding-left:200px;
+  }
+  
+  .box5-right {
+    float:left;
+    width:50%;
+    height:200px;
+    /* background-color:red; */
+  }
+  
+  .box5-right p {
+    padding-right:200px;
+  }
+
+
+  .box6 {
+    /* background-color:pink; */
+    width:100%;
+    height:470px;
+    text-align:center;
+  }
+
+
+  .box6 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 150px;
+    border-bottom:2px solid black;
+  }
+
+
+  .box6 p {
+    font-size:18px;  
+    padding-top:40px;
+    padding-bottom:30px;
+    line-height:30px;
+  }
+
+  .box7 {
+    /* background-color:green; */
+    width:100%;
+    height:650px;
+    text-align:center;
+    position:relative;
+  }
+
+
+  .box7 h2 {
+    font-size:40px;
+    padding-top:100px;
+    padding-bottom:10px;
+    margin:0px 150px;
+    border-bottom:2px solid black;
+  }
+
+
+  .box7 p {
+    font-size:18px;  
+    padding-top:40px;
+    padding-bottom:0px;
+    line-height:30px;
+  }
+
+  .michi {
+    position:absolute;
+    width:300px;
+    height:300px;
+    top:280px;
+    left:250px;
+  }
+  
+  .qr {
+    position:absolute;
+    width:150px;
+    height:150px;
+    top:380px;
+    left:470px;
+  }
+
+  footer {
+    background-color:#ffa500;
+    width:100%;
+    height:320px;
+  }
+  
+  footer img {
+    float:left;
+    margin:20px 8px;
+    width:48px;
+    height:50px;
+  }
+  
+  .info p {
+    margin:2px 15px;
+    font-size:15px;
+  }
+  
+  .info .name {
+    font-size:25px;
+    margin:0px 20px;
+  }
+  
+ 
+  
+  
+
+
+
+ 
+  
+  
+  }
+  
