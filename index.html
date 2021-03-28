@@ -8,6 +8,7 @@
 content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="lesson.css">
 <link rel="stylesheet" href="lessonresponsive.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>
 
 <body>
@@ -54,8 +55,10 @@ content="width=device-width, initial-scale=1.0">
       スウェーデン大会　３位<br>
       現在は延べ3000人以上を指導する<br>卓球講師として活動中
     </p>
-    <!-- <img src="file:///Users/shunki/Desktop/MyPortforio/アイコン画像/hiroto.png"> -->
-    <img src="./hiroto.PNG">
+    <!-- <img id="hiroto" src="file:///Users/shunki/Desktop/MyPortforio/アイコン画像/hiroto.png"> -->
+    <img id="hiroto" src="./hiroto.PNG">
+    <!-- <img id="amihiroto" src="file:///Users/shunki/Desktop/MyPortforio/宝探し画像/amihiroto.png"> -->
+    <img id="amihiroto" src="./amihiroto.PNG">
   </div>
 
   <div class="box4">
@@ -97,12 +100,15 @@ content="width=device-width, initial-scale=1.0">
     <h2>レッスン3.<br>プライベートレッスン</h2>
     <p>ここでしか受けられない<br>
       マンツーマンレッスンを受けてみませんか？</p>
-      <p>本気で全国目指したい人、<br>卓球の真の楽しさを知りたい人はぜひ。
+      <p><span id="rollertrigger">本気</span>で全国目指したい人、<br>卓球の真の楽しさを知りたい人はぜひ。
     </p>
     <h3>コース一覧</h3>
     <p>60分　¥5,000(別途台料金¥500)<br>
        ※完全予約制、年会費¥5,000
     </p>
+    <!-- <img id="roller" src="file:///Users/shunki/Desktop/MyPortforio/宝探し画像/roller.png"> -->
+    <img id="roller" src="./roller.PNG">
+
   </div>
 
   <div class="box7">
@@ -111,8 +117,8 @@ content="width=device-width, initial-scale=1.0">
       <p>お気軽にメッセージどうぞ。
     </p>
     <p><a href="https://lin.ee/zpsc3Y5">＠068qejzh</a></p>
-    <!-- <img class="michi" src="file:///Users/shunki/Desktop/MyPortforio/アイコン画像/michi.png"> -->
-    <img class="michi" src="./michi.PNG">    
+    <!-- <img class="michi" id="amitrigger" src="file:///Users/shunki/Desktop/MyPortforio/アイコン画像/michi.png"> -->
+    <img class="michi" id="amitrigger" src="./michi.PNG">    
   <!-- <img id="line" src="file:///Users/shunki/Desktop/MyPortforio/宝探し画像/newqr.png"> -->
   <img id="line" src="./newqr.PNG">
   </div>
@@ -139,7 +145,7 @@ content="width=device-width, initial-scale=1.0">
 
 </footer>
 
-
+<script src="lesson.js"></script>
 
 
 
